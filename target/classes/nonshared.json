@@ -1,0 +1,52 @@
+{
+  "scheduler": {
+    "schedulerInfo": {
+      "type": "capacityScheduler",
+      "capacity": 100.0,
+      "usedCapacity": 0.0,
+      "maxCapacity": 100.0,
+      "queueName": "root",
+      "queues": {
+        "queue": [{
+          "type": "capacitySchedulerLeafQueueInfo",
+          "capacity": 100.0,
+          "usedCapacity": 0.0,
+          "maxCapacity": 100.0,
+          "absoluteCapacity": 100.0,
+          "absoluteMaxCapacity": 100.0,
+          "absoluteUsedCapacity": 0.0,
+          "numApplications": 0,
+          "queueName": "default",
+          "state": "RUNNING",
+          "resourcesUsed": {
+            "memory": 0,
+            "vCores": 0
+          },
+          "hideReservationQueues": false,
+          "nodeLabels": ["*"],
+          "numActiveApplications": 0,
+          "numPendingApplications": 0,
+          "numContainers": 0,
+          "maxApplications": 10000,
+          "maxApplicationsPerUser": 10000,
+          "userLimit": 100,
+          "users": null,
+          "userLimitFactor": 1.0,
+          "AMResourceLimit": {
+            "memory": 11520,
+            "vCores": 1
+          },
+          "usedAMResource": {
+            "memory": 0,
+            "vCores": 0
+          },
+          "userAMResourceLimit": {
+            "memory": 11520,
+            "vCores": 1
+          },
+          "preemptionDisabled": true
+        }]
+      }
+    }
+  }
+}
